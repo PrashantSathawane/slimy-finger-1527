@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color:#f0f2f4;
+}
+.navbar{ 
+width: 100%;
+height: 70px;
+background-color: rgb(46,51,55);
+}
+.navbar{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center; 
+}
+
+#logo> a>img{
+  width: 9%;
+  padding-left: 80px;
+}
+#returnPage{
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffff;
+  padding-right: 80px
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    top: 1px;
+}
+
+input:checked + .slider {
+  background-color: rgb(46,51,55);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(46,51,55);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 35px;
+  /* border: 1px solid green; */
+  height: 25px;
+  width: 50px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  height: 20px;
+  width: 20px;
+ 
+}
+.toggleSwitch{
+  display: flex;
+  width:100%;    
+  justify-content: flex-end;
+     align-items: center;
+     gap:10px;
+     margin-top: 3px;
+     /* border: 1px solid red; */
+
+     
+   }
+  .toggleSwitch>p{
+     margin:10px;
+  }
+   .checkbox{
+     display: flex;
+     gap:10px;
+   }
+   #signIn{
+    width: 40%;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color: #FFFF;
+    
+   }
+   
+   #container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+   }
+
+   input{
+    width: 96%;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 5px;
+    border: 1px solid grey;
+   }
+   button{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+   }
+   p{
+    font-size: 13px;
+   }
+   #orSection{
+    display: flex;
+    padding: 10px;
+   }
+   #orSection>div{
+    display: flex;
+    width: 48%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+   }
+   h2{
+    text-align: center;
+   }
+   #sign{
+    background-color: rgb(46,51,55);
+    color: aliceblue;
+    border: none;
+    width: 100%;
+}
+#sign:hover{
+     background-color: rgb(46,51,55);
+}
+.orContainer{
+     background-color: white;
+     color: rgb(46,51,55);
+     font-weight: bold;
+     border: 1px solid rgb(46,51,55);
+}
+.orContainer:hover{
+     background-color: rgb(46,51,55);
+     color: white;
+}
+#apple{
+     background-color: white;
+     color: black;
+     font-weight: bold;
+     border: 1px solid black;
+}
+#apple:hover{
+     background-color: black;
+     color: white;
+}
+#forget{
+ font-size: small;
+ text-decoration: none;
+}
+#forget:hover{
+     color: darkblue;
+     text-decoration: underline;
+}
+a{
+    font-size: 12px;
+    color: #0046be;
+    text-decoration: none;
+   }
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+
+
+.terms{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 150px;
+}
+
+#fs{
+    font-size: 13px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+hr{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.pl{
+    padding-left:15px;
+}
